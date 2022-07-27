@@ -7,7 +7,7 @@ const userRouter = require("./routes/user");
 const diaryRouter = require("./routes/diary");
 const sendMail = require("./controllers/sendMail");
 const path = require("path");
-const PORT = 3000;
+const PORT = 3002;
 
 // second*(optional) minute hour date month day
 // it runs minute(10), hour (6 am), date(1,16), everymonth* ,any day of the week*

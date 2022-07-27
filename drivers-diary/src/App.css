@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+body {
+  background-color: rgb(220, 216, 197);
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 60px 5px auto 5px;
+  border: solid;
+  border-radius: 15px;
+}
+.inp-container {
+  margin: 15px 15px 15px 15px;
+  text-align: center;
+}
+table,
+tbody,
+th,
+td {
+  border: 1px solid;
+  
+}
+table,
+td {
+  margin-left: auto;
+  margin-right: auto;
+}
+.big-container {
+  align-content: center;
+}
+.adding-btn {
+  margin-left: 40%;
+  margin-top: 3%;
+}
+.header {
+  text-align: center;
+  background-color: rgb(163, 46, 46);
+  color: rgb(223, 203, 85);
+}
+.nav-btn {
+  font-weight: bold;
+  border-radius: 5px;
+  color: rgb(223, 203, 85);
+  background-color: rgb(94, 90, 90);
+}
+.nav-btn-div {
+  display: flex;
+  justify-content: center;
+}
+.table-header {
+  background-color: rgb(53, 52, 52);
+  color: rgb(226, 210, 120);
+}
+.delete{
+  padding-left: 40%;
+  font-weight: bolder;
+ color:rgb(210, 27, 27)
+}
+.edit-btn{
+  font-weight:bolder;
+  color:blue;
+}
+
+.noList{
+display: flex;
+justify-content: center;
+}
+label{
+  color:rgb(139, 17, 17);
+  font-weight:bold;
+}
+.income_blue{
+  background-color:rgb(31,1,255) !important;
+  color:rgb(254,254,255)
+}
+.income_gray{
+  background-color:rgb(128,128,128);
+}
+table{
+  border-radius: 5px;
+ 
+}
+.income_table tr td:first-child{
+text-align: right;
+}
+.userFa{
+  position: absolute;
+  right: 0px;
+}
+/* .submit_btn{
+  margin: 0;
+  margin-left: 40%;
+
+  position: absolute;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+} */
