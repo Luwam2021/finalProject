@@ -1,0 +1,23 @@
+{
+  "name": "drivers_diary",
+  "version": "1.0.0",
+  "description": "keep track of expenses and income of truck drivers ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Luwam Paulos",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.5",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.1",
+    "nodemailer": "^6.7.7",
+    "pdfkit": "^0.13.0"
+  }
+}
