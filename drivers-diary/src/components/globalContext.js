@@ -7,7 +7,7 @@ const LoadProvider = loadContext.Provider;
 
 const expenseContext = createContext();
 const ExpenseProvider = expenseContext.Provider;
-const backendURL = "http://localhost:3002";
+const backendURL = "http://localhost:4000";
 
 export {
   GlobalProvider,

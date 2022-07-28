@@ -1,15 +1,16 @@
 require("dotenv").config();
+
 const express = require("express");
 const cors = require("cors");
-const path = require('path');
+const path = require("path");
 const cron = require("node-cron");
 const app = express();
 const mongoose = require("mongoose");
-const userRouter = require(path.join(__dirname,"./routes/user"));
-const diaryRouter = require(path.join(__dirname,"./routes/diary"));
-const sendMail = require(path.join(__dirname,"./controllers/sendMail"));
+const userRouter = require(path.join(__dirname, "./routes/user"));
+const diaryRouter = require(path.join(__dirname, "./routes/diary"));
+const sendMail = require(path.join(__dirname, "./controllers/sendMail"));
 
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 4000;
 
 // second*(optional) minute hour date month day
 // it runs minute(10), hour (6 am), date(1,16), everymonth* ,any day of the week*
