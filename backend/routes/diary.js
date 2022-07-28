@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
-const diaryController = require("../controllers/diary");
+const path = require('path');
+const diaryController = require(path.join(__dirname,"../controllers/diary"));
 
 const multer = require("multer");
 
