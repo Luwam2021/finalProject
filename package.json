@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
-    "client": "npm start --prefix driver-diary",
+    "client": "npm start driver-diary",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
